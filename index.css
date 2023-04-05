@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: beige;
+}
+
+.container {
+    margin: 0px 50px;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+nav {
+    width: 100%;
+    background-color: brown;
+    padding: 5px 55px;
+    height: 35px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    color: white;
+    font-size: 24px;
+}
+
+main img {
+    min-width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+main {
+    display: flex;
+    margin: 15px 0;
+}
+
+main p {
+    margin: 0;
+    font-weight: 500;
+}
+
+section h2 {
+    font-size: 1.9em;
+}
+
+footer {
+    border-top: 1px solid rgb(193, 193, 193);
+    margin-top: 25px;
+}
+
+
+.sections {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+form {
+    margin-top: 25px;
+    max-width: 500px;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+
+fieldset input, fieldset textarea {
+    font-size: 18px;
+    height: 42px;
+    display: block;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: 1px solid gray;
+}
+
+label[for='q'], label[for='email'] {
+    margin-top: 10px;
+}
+
+#q {
+    height: 100px ;
+    resize: none;
+}
+
+fieldset button {
+    cursor: pointer;
+
+    width: 100px;
+    height: 40px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: brown;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
